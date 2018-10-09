@@ -51,6 +51,7 @@ public class ShiroConfig {
     @Value("${spring.redis.timeout}")
     private int timeout;
 
+
     /**
      * shiro 中配置 redis 缓存
      *
